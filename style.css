@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #2d323d;
+}
+
+section {
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-sec {
+    background-image: url(back-img.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-sec h1 {
+    position: relative;
+    top: 2%;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+a {
+    position: relative;
+    bottom: 5%;
+    background-color: aliceblue;
+    width: 80%;
+    height: 8%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2d323d;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+a:hover {
+    background-color: #2f3d5b;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.content-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(back-img-2.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.content-modal {
+    padding: 10%;
+    width: 80%;
+    height: 90%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.186);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+}
+.content-modal h1 {
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+}
+.content-modal h1:last-child {
+    margin-top: 200px;
+}
+.content-modal ol li {
+    color: #2d323d;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+.content-modal a {
+    position: relative;
+    bottom: 0;
+    margin: auto ;
+}
+
+
+.persons-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.persons-sec h1 {
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+.persons-sec li {
+    color: #c6c6c6;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 2%;
+}
